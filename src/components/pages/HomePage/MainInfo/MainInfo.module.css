@@ -1,0 +1,23 @@
+.Container {
+  padding: 0 4rem;
+  display: grid;
+  column-gap: 15px;
+  row-gap: 10px;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Container div {
+  border-radius: 10px;
+}
+.Container div:first-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.Container div:nth-child(3) {
+  grid-column-start: span 1;
+}
+.Container div:nth-last-child(-n+5) img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=MainInfo.module.css.map */

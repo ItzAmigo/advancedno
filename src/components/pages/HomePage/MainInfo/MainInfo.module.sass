@@ -1,0 +1,19 @@
+@import "../../../../variables"
+
+.Container
+  padding: 0 4rem
+  display: grid
+  column-gap: 15px
+  row-gap: 10px
+  justify-content: space-between
+  grid-template-columns: repeat(4, 1fr)
+  div
+    border-radius: 10px
+    &:first-child
+      grid-column-start: 1
+      grid-column-end: 4
+    &:nth-child(3)
+      grid-column-start: span 1
+    &:nth-last-child(-n+5)
+      img
+        width: 100%

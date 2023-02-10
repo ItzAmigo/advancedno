@@ -1,0 +1,35 @@
+.Container {
+  padding: 0 4rem;
+}
+.Container h1 {
+  margin: 0 0 1rem 0;
+}
+
+.CardsBlock {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  gap: 15px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Card div {
+  font-size: 0.833rem;
+  text-align: center;
+  font-weight: 700;
+  color: #323232;
+}
+.Card div img {
+  width: 100%;
+}
+.Card div:last-child {
+  color: #FC4D4D;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=PopularModels.module.css.map */

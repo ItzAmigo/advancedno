@@ -1,0 +1,64 @@
+.Container {
+  display: flex;
+  height: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  background: white;
+  gap: 15px;
+  justify-content: center;
+  margin: 0 10px;
+}
+.Container p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 15px;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.ProductBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  height: 100%;
+  align-items: center;
+}
+.ProductBlock svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.UserBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.ProductBlock {
+  width: 50%;
+}
+
+.UserBlock {
+  font-size: 0.694rem;
+  font-weight: 900;
+  width: 120%;
+}
+
+.ImageBlock img {
+  width: 100%;
+}
+
+.UserData {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=Review.module.css.map */

@@ -1,0 +1,30 @@
+.swiper-video-review {
+  width: 53.5rem;
+  height: 15rem;
+}
+.swiper-video-review .swiper-pagination-bullet {
+  margin: 0 20px !important;
+}
+
+.swiper-slide-video-review {
+  width: 50%;
+  height: 20rem;
+}
+
+.video-review-slider-button-prev,
+.video-review-slider-button-next {
+  color: #AFAFAF !important;
+  top: 35% !important;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.video-review-slider-button-prev {
+  left: 1% !important;
+}
+
+.video-review-slider-button-next {
+  right: 1% !important;
+}
+
+/*# sourceMappingURL=VideoReviewsSwiper.css.map */

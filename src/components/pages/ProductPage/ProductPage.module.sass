@@ -1,0 +1,148 @@
+@import "../../../variables"
+
+.Container
+  padding: 0 4rem
+  article:first-child
+    margin-bottom: 0.5rem
+
+.Breadcrumbs
+  margin-bottom: 2rem
+  a
+    color: #646464
+    transition: all .3s
+    &:hover
+      color: $lightSecondary
+
+.MapBlock
+  width: 100%
+
+.ProductName
+    font-size: $fs2
+    font-weight: 100
+    font-family: $montserratBold
+
+.ProductCard
+  display: grid
+  grid-template-columns: 3fr 1fr
+  gap: 20px
+  height: 26rem
+  button
+    padding: 0 10px
+    border-radius: 6px
+    height: 35px
+    font-size: $fs5
+    font-family: $montserratRegular
+    font-weight: 700
+    margin-right: 10px
+.ProductDescription, .ProductInfo
+  background: white
+  padding: 20px
+  border-radius: 10px
+.ProductInfo
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  font-size: $fs2
+  font-weight: 700
+  color: #323232
+  div
+    &:first-child
+      display: flex
+      align-items: flex-start
+    &:nth-child(2)
+      .HighlightedText
+        margin-right: 15px
+    &:nth-child(3)
+      font-size: $fs6
+    &:nth-child(4)
+      p
+        font-size: $fs4
+      ul
+        list-style: disc
+        li
+          font-family: 'Inter', sans-serif
+          font-weight: 500
+          margin: 10px 25px
+      font-size: $fs6
+    &:last-child
+      display: flex
+      align-items: center
+      button
+        &:first-child
+          height: 2rem
+          width: 10rem
+        &:last-child
+          display: flex
+          justify-content: center
+          align-items: center
+          height: 100%
+          background: white
+  .HighlightedText
+    color: $primary
+    font-weight: 900
+  .StrikethroughText
+    color: #757575
+    font-weight: 900
+    text-decoration: line-through
+    font-size: $fs5
+.ProductDescription
+  display: flex
+  flex-direction: column
+  gap: 10px
+  .ProductDetails
+    display: flex
+    gap: 10px
+    align-items: center
+
+.ProductDetailsInfo
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  gap: 1.5rem
+  h1
+    margin-bottom: 10px
+  div
+    &:first-child
+      display: flex
+      align-items: center
+      gap: 20px
+      p
+        &:nth-last-child(2)
+          color: #faaf00
+          font-size: $fs4
+          font-weight: 700
+        &:last-child
+          color: #7c7971
+          font-size: $fs6
+    &:nth-child(2)
+      div
+        button
+          width: 2rem
+          height: 2rem
+          margin-right: 1.4rem
+          transition: outline .2s
+          &:hover
+            outline: 2px solid $primary
+          &:first-child
+            background: #d9dcde
+          &:nth-child(2)
+            background: #D61C2E
+          &:nth-child(3)
+            background: #175DD6
+          &:nth-child(4)
+            background: #6A0DAD
+          &:nth-child(5)
+            background: #000000
+    &:nth-child(3)
+      div
+        button
+          transition: outline .2s
+          width: 4rem
+          height: 2rem
+          font-family: $montserratBold
+          font-weight: 900
+    &:nth-child(4)
+      p
+        font-size: 0.7rem
+        font-family: 'Inter', sans-serif

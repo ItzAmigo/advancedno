@@ -1,0 +1,18 @@
+.Container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.Container p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.Image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=SlideItem.module.css.map */

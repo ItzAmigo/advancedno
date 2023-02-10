@@ -1,0 +1,180 @@
+.Container {
+  padding: 0 4rem;
+}
+.Container article:first-child {
+  margin-bottom: 0.5rem;
+}
+
+.Breadcrumbs {
+  margin-bottom: 2rem;
+}
+.Breadcrumbs a {
+  color: #646464;
+  transition: all 0.3s;
+}
+.Breadcrumbs a:hover {
+  color: #AFAFAF;
+}
+
+.MapBlock {
+  width: 100%;
+}
+
+.ProductName {
+  font-size: 1.44rem;
+  font-weight: 100;
+  font-family: "MontserratBold", sans-serif;
+}
+
+.ProductCard {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  height: 26rem;
+}
+.ProductCard button {
+  padding: 0 10px;
+  border-radius: 6px;
+  height: 35px;
+  font-size: 0.833rem;
+  font-family: "MontserratRegular", sans-serif;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.ProductDescription, .ProductInfo {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ProductInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.44rem;
+  font-weight: 700;
+  color: #323232;
+}
+.ProductInfo div:first-child {
+  display: flex;
+  align-items: flex-start;
+}
+.ProductInfo div:nth-child(2) .HighlightedText {
+  margin-right: 15px;
+}
+.ProductInfo div:nth-child(3) {
+  font-size: 0.694rem;
+}
+.ProductInfo div:nth-child(4) {
+  font-size: 0.694rem;
+}
+.ProductInfo div:nth-child(4) p {
+  font-size: 1rem;
+}
+.ProductInfo div:nth-child(4) ul {
+  list-style: disc;
+}
+.ProductInfo div:nth-child(4) ul li {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin: 10px 25px;
+}
+.ProductInfo div:last-child {
+  display: flex;
+  align-items: center;
+}
+.ProductInfo div:last-child button:first-child {
+  height: 2rem;
+  width: 10rem;
+}
+.ProductInfo div:last-child button:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: white;
+}
+.ProductInfo .HighlightedText {
+  color: #FC4D4D;
+  font-weight: 900;
+}
+.ProductInfo .StrikethroughText {
+  color: #757575;
+  font-weight: 900;
+  text-decoration: line-through;
+  font-size: 0.833rem;
+}
+
+.ProductDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ProductDescription .ProductDetails {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ProductDetailsInfo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+.ProductDetailsInfo h1 {
+  margin-bottom: 10px;
+}
+.ProductDetailsInfo div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ProductDetailsInfo div:first-child p:nth-last-child(2) {
+  color: #faaf00;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.ProductDetailsInfo div:first-child p:last-child {
+  color: #7c7971;
+  font-size: 0.694rem;
+}
+.ProductDetailsInfo div:nth-child(2) div button {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.4rem;
+  transition: outline 0.2s;
+}
+.ProductDetailsInfo div:nth-child(2) div button:hover {
+  outline: 2px solid #FC4D4D;
+}
+.ProductDetailsInfo div:nth-child(2) div button:first-child {
+  background: #d9dcde;
+}
+.ProductDetailsInfo div:nth-child(2) div button:nth-child(2) {
+  background: #D61C2E;
+}
+.ProductDetailsInfo div:nth-child(2) div button:nth-child(3) {
+  background: #175DD6;
+}
+.ProductDetailsInfo div:nth-child(2) div button:nth-child(4) {
+  background: #6A0DAD;
+}
+.ProductDetailsInfo div:nth-child(2) div button:nth-child(5) {
+  background: #000000;
+}
+.ProductDetailsInfo div:nth-child(3) div button {
+  transition: outline 0.2s;
+  width: 4rem;
+  height: 2rem;
+  font-family: "MontserratBold", sans-serif;
+  font-weight: 900;
+}
+.ProductDetailsInfo div:nth-child(4) p {
+  font-size: 0.7rem;
+  font-family: "Inter", sans-serif;
+}
+
+/*# sourceMappingURL=ProductPage.module.css.map */

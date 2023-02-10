@@ -1,0 +1,130 @@
+.Container {
+  padding: 15px 4rem;
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #AFAFAF;
+}
+
+.LogoBlock img {
+  width: 7.5rem;
+}
+
+.CatalogBlock button {
+  padding: 0 15px;
+  height: 45px;
+  font-size: 0.694rem;
+  font-family: "MontserratRegular", sans-serif;
+  font-weight: 500;
+}
+.CatalogBlock button img {
+  width: 1rem;
+  margin-right: 10px;
+}
+
+.InputBlock {
+  position: relative;
+  display: flex;
+  background-color: #ffffff;
+  border: 2px solid #FC4D4D;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 100%;
+  height: 45px;
+}
+.InputBlock input {
+  background: none;
+  width: 200%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-family: "MontserratRegular", sans-serif;
+  font-weight: 700;
+  font-size: 0.694rem;
+}
+.InputBlock input::placeholder {
+  padding: 0;
+  font-size: 0.694rem;
+  color: #AFAFAF;
+}
+.InputBlock input:focus {
+  outline: none;
+}
+
+.SearchElement {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  background: #FC4D4D;
+  width: 55px;
+  height: 45px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SearchElement img {
+  height: 40%;
+}
+
+.AutoComplete {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  background: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 150;
+  max-height: 180px;
+  height: auto;
+  overflow: auto;
+}
+
+.AutoCompleteItem {
+  padding: 10px;
+}
+.AutoCompleteItem:hover {
+  background: #FC4D4D;
+  cursor: pointer;
+  transition: cubic-bezier(1, 0, 0, 1) 0.15ms all;
+}
+
+.ButtonsBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+.ButtonsBlock div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+}
+.ButtonsBlock div p {
+  color: #484848;
+  font-size: 0.694rem;
+}
+.ButtonsBlock div img {
+  height: 24px;
+  filter: hue-rotate(100deg);
+}
+.ButtonsBlock div:hover {
+  cursor: pointer;
+}
+.ButtonsBlock div:hover p {
+  color: #FC4D4D;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=MainNavbar.module.css.map */

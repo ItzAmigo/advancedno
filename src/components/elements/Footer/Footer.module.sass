@@ -1,0 +1,58 @@
+@import "../../../variables"
+
+.Container
+  padding: 1rem 4rem 1rem
+  background: $dark
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 0.5fr
+  justify-content: space-between
+  gap: 2.4rem
+  font-size: $fs5
+  ul
+    display: flex
+    flex-direction: column
+    gap: 0.8rem
+    li
+      display: flex
+      align-items: flex-start
+      gap: 20px
+      a
+        color: #757575
+        div
+          width: 5rem
+          height: 1rem
+          border: 2px solid white
+          border-radius: 5px
+      &:first-child
+        a, &
+          color: white
+          font-weight: 900
+  div
+    span
+      font-size: $fs6
+
+.ContactsBlock
+  display: flex
+  flex-direction: column
+  gap: 1.2rem
+  img
+    margin-right: 14px
+
+.HighlightedText
+  color: white
+
+.UnderstatedText
+  color: #757575
+
+.FooterList
+  align-items: center
+  display: flex
+  flex-direction:  row
+  justify-content: space-between
+  gap: 1rem
+  img
+    width: 2rem
+  button
+
+
+

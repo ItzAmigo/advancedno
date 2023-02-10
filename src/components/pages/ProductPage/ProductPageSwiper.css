@@ -1,0 +1,39 @@
+.swiper-product {
+  width: 16rem;
+  height: 20rem;
+  background: white;
+}
+.swiper-product .swiper-pagination-bullet {
+  margin: 0 5px !important;
+}
+
+.swiper-slide-product {
+  width: 70%;
+  background: white !important;
+  border-color: white;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.swiper-slide-product img {
+  object-fit: fill;
+  width: 80%;
+}
+
+.video-review-slider-button-prev,
+.video-review-slider-button-next {
+  color: #AFAFAF !important;
+  top: 35% !important;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.video-review-slider-button-prev {
+  left: 1% !important;
+}
+
+.video-review-slider-button-next {
+  right: 1% !important;
+}
+
+/*# sourceMappingURL=ProductPageSwiper.css.map */

@@ -1,0 +1,65 @@
+.Container {
+  padding: 1rem 4rem 1rem;
+  background: #1E1E1E;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr;
+  justify-content: space-between;
+  gap: 2.4rem;
+  font-size: 0.833rem;
+}
+.Container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Container ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.Container ul li a {
+  color: #757575;
+}
+.Container ul li a div {
+  width: 5rem;
+  height: 1rem;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.Container ul li:first-child a, .Container ul li:first-child {
+  color: white;
+  font-weight: 900;
+}
+.Container div span {
+  font-size: 0.694rem;
+}
+
+.ContactsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.ContactsBlock img {
+  margin-right: 14px;
+}
+
+.HighlightedText {
+  color: white;
+}
+
+.UnderstatedText {
+  color: #757575;
+}
+
+.FooterList {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.8rem;
+}
+.FooterList img {
+  width: 3rem;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,20 @@
+.swiper-review {
+  width: 54.2rem;
+  height: 75%;
+}
+
+.review-slider-button-prev,
+.review-slider-button-next {
+  color: #AFAFAF !important;
+  top: 50% !important;
+}
+
+.review-slider-button-prev {
+  left: 1% !important;
+}
+
+.review-slider-button-next {
+  right: 1% !important;
+}
+
+/*# sourceMappingURL=PopularReviewsSwiper.css.map */
